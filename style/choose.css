@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url("../img/Login-bg1.1.png");
+  height: 205px;
+  background-position: center;
+}
+
+.asdfasdf {
+  color: rgb(255, 103, 103);
+}
+
+.sidebar {
+  background-color: white;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 5px black;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  color: #ff0;
+}
+
+.content {
+  margin-left: 300px;
+  padding: 20px;
+  line-height: 50px;
+  color: #fff;
+}
+.profile {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.navigation {
+  line-height: 5px;
+  margin-top: 30px;
+  display: inline-block;
+  /* color: cornflowerblue; */
+}
+
+.content h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content h1 {
+  color: white;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+}
+.content h4 {
+  color: white;
+
+  font-weight: 400;
+}
+
+.subs {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 37px;
+  margin-left: 300px;
+  opacity: 0.6;
+}
+
+hr.line1 {
+  margin-top: 5px;
+  border: 2px solid #606c5d;
+  width: 90%;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+
+.card {
+  display: inline-block;
+  left: 270px;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 225px;
+  height: 330px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* .card::after {
+    content: "Available";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  } */
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.subtitle2 {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.card img {
+  position: relative;
+  left: -35px;
+  bottom: 40px;
+}
+
+.texthead {
+  position: absolute;
+  bottom: 245px;
+  left: 23px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 0.6px black;
+}
+.textheadhp {
+  position: absolute;
+  bottom: 280px;
+  left: 23px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 0.6px black;
+}

@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h1,
+h2 {
+  color: #444;
+}
+
+h3 {
+  color: #999;
+}
+
+.side-menu {
+  position: fixed;
+  background-color: #ffffff;
+  width: 18vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.side-menu .brand-name {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-menu li {
+  font-size: 17px;
+  padding: 12.3px 8px;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.side-menu li i {
+  margin-right: 10px;
+}
+
+.side-menu li:hover {
+  color: red;
+}
+
+.side-menu .logout {
+  margin-top: 250px;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  height: auto;
+  background: #ffffff;
+}
+
+.container .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 82vw;
+  height: 23vh;
+  background-image: url("../img/Login-bg1.1.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.container .header .nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.container .header .nav .brand {
+  flex: 3;
+  display: flex;
+  font-size: 35px;
+}
+
+.container .header .nav .brand h1 {
+  color: #ffffff;
+}
+
+.container .header .nav .user {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header .nav .user span {
+  font-size: 25px;
+}
+
+.btn4 {
+  background-color: #7fe9d6;
+  color: #446167;
+  padding: 30px 39px;
+  border-radius: 8px;
+  margin-left: 1px;
+  text-align: center;
+}
+
+.btn2 {
+  background-color: #ea7a7a;
+  color: #446167;
+  padding: 30px 27px;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 1px;
+}
+
+.btn3 {
+  background-color: #e1e5ee;
+  color: #446167;
+  padding: 30px 43px;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 1px;
+}
+
+.container .content {
+  position: relative;
+  margin-top: 10vh;
+  min-height: 90vh;
+}
+
+.container .content .cards {
+  padding: 100px 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .content .cards .card {
+  padding-top: 20px;
+  width: 240px;
+  height: 155px;
+  background: white;
+  margin: 15px 10px;
+  /* margin-left: 5px; */
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.container .content .cards .card .box {
+  color: #999;
+  text-align: center;
+}
+
+.box i {
+  font-size: 60px;
+  padding-bottom: 12px;
+}
+
+.box tr td {
+  padding: 0 15px;
+  text-align: left;
+}
+
+.cards a .card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.modal-header .konfir {
+  font-size: 30px;
+}
+
+.modal-content {
+  padding: 11px;
+}
+
+.modal-body .modal-content i {
+  font-size: 89px;
+  margin-left: 9px;
+}
+
+.modal-content .textModal .detail .isi {
+  font-size: 20px;
+  padding: 3px 18px;
+}
+
+.modal-content .textModal {
+  display: flex;
+  padding-top: 17px;
+}
+
+.modalfill {
+  margin-top: 20px;
+}
+
+.alert {
+  padding: 160px 190px;
+}
+.notif {
+  border-radius: 7px;
+  border: 1px solid black;
+  background-color: blue;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
